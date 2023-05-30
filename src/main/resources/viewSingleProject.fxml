@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1000.0" prefWidth="1800.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+  <tabs>
+    <Tab text="Aggregated">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <TableView fx:id="tableAgg" layoutX="14.0" layoutY="8.0" prefHeight="938.0" prefWidth="1087.0">
+                    <columns>
+                      <TableColumn fx:id="entityTableColumn" prefWidth="880.8000354766846" text="Class/Method" />
+                      <TableColumn fx:id="priorityTableColumn" minWidth="0.0" prefWidth="205.60003662109375" text="Priority" />
+                    </columns>
+                  </TableView>
+                  <BarChart fx:id="numOfSmellAggChart" layoutX="1170.0" layoutY="8.0" legendVisible="false" prefHeight="455.0" prefWidth="615.0" title="Number of Each Smell">
+                    <xAxis>
+                      <CategoryAxis fx:id="numOfSmellAggChartCateg" label="Smell" side="BOTTOM" />
+                    </xAxis>
+                    <yAxis>
+                      <NumberAxis fx:id="numOfSmellAggChartNum" label="Number" side="LEFT" />
+                    </yAxis>
+                  </BarChart>
+                  <BarChart fx:id="numOfPriorityAggChart" layoutX="1170.0" layoutY="486.0" legendVisible="false" prefHeight="455.0" prefWidth="615.0" title="Number of Each Priority">
+                    <xAxis>
+                      <CategoryAxis label="Priority" side="BOTTOM" />
+                    </xAxis>
+                    <yAxis>
+                      <NumberAxis label="Number" side="LEFT" />
+                    </yAxis>
+                  </BarChart>
+               </children></AnchorPane>
+      </content>
+    </Tab>
+    <Tab text="God Class">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <TableView fx:id="tableGod" prefHeight="938.0" prefWidth="1087.0">
+                     <columns>
+                        <TableColumn fx:id="entityTableColumnGod" prefWidth="880.8000354766846" text="Class" />
+                        <TableColumn fx:id="priorityTableColumnGod" minWidth="0.0" prefWidth="205.60003662109375" text="Priority" />
+                     </columns>
+                  </TableView>
+                  <BarChart fx:id="numOfPriorityChartGod" layoutX="1170.0" layoutY="241.0" legendVisible="false" prefHeight="455.0" prefWidth="615.0" title="Number of Each Priority">
+                     <xAxis>
+                        <CategoryAxis label="Priority" side="BOTTOM" />
+                     </xAxis>
+                     <yAxis>
+                        <NumberAxis label="Number" side="LEFT" />
+                     </yAxis>
+                  </BarChart>
+               </children></AnchorPane>
+      </content>
+    </Tab>
+      <Tab text="DataClass">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <TableView fx:id="tableData" prefHeight="938.0" prefWidth="1087.0">
+                     <columns>
+                        <TableColumn fx:id="entityTableColumnData" prefWidth="880.8000354766846" text="Class" />
+                        <TableColumn fx:id="priorityTableColumnData" minWidth="0.0" prefWidth="205.60003662109375" text="Priority" />
+                     </columns>
+                  </TableView>
+                  <BarChart fx:id="numOfPriorityChartData" layoutX="1170.0" layoutY="241.0" legendVisible="false" prefHeight="455.0" prefWidth="615.0" title="Number of Each Priority">
+                     <xAxis>
+                        <CategoryAxis label="Priority" side="BOTTOM" />
+                     </xAxis>
+                     <yAxis>
+                        <NumberAxis label="Number" side="LEFT" />
+                     </yAxis>
+                  </BarChart>
+               </children>
+            </AnchorPane>
+        </content>
+      </Tab>
+      <Tab text="Brain Method">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <TableView fx:id="tableBrain" prefHeight="938.0" prefWidth="1087.0">
+                     <columns>
+                        <TableColumn fx:id="entityTableColumnBrain" prefWidth="880.8000354766846" text="Method" />
+                        <TableColumn fx:id="priorityTableColumnBrain" minWidth="0.0" prefWidth="205.60003662109375" text="Priority" />
+                     </columns>
+                  </TableView>
+                  <BarChart fx:id="numOfPriorityChartBrain" layoutX="1170.0" layoutY="241.0" legendVisible="false" prefHeight="455.0" prefWidth="615.0" title="Number of Each Priority">
+                     <xAxis>
+                        <CategoryAxis label="Priority" side="BOTTOM" />
+                     </xAxis>
+                     <yAxis>
+                        <NumberAxis label="Number" side="LEFT" />
+                     </yAxis>
+                  </BarChart>
+               </children></AnchorPane>
+        </content>
+      </Tab>
+      <Tab text="Dispersed Coupling">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <TableView fx:id="tableCoupling" prefHeight="938.0" prefWidth="1087.0">
+                     <columns>
+                        <TableColumn fx:id="entityTableColumnCoupling" prefWidth="880.8000354766846" text="Method" />
+                        <TableColumn fx:id="priorityTableColumnCoupling" minWidth="0.0" prefWidth="205.60003662109375" text="Priority" />
+                     </columns>
+                  </TableView>
+                  <BarChart fx:id="numOfPriorityChartCoupling" layoutX="1170.0" layoutY="258.0" legendVisible="false" prefHeight="455.0" prefWidth="615.0" title="Number of Each Priority">
+                     <xAxis>
+                        <CategoryAxis label="Priority" side="BOTTOM" />
+                     </xAxis>
+                     <yAxis>
+                        <NumberAxis label="Number" side="LEFT" />
+                     </yAxis>
+                  </BarChart>
+               </children></AnchorPane>
+        </content>
+      </Tab>
+  </tabs>
+</TabPane>

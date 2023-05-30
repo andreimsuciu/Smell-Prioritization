@@ -1,0 +1,4 @@
+org.argouml.cognitive.Designer.run();HIGH;CINT:24&LOC:105&MND:8&CC:19&NOAV:34
+org.argouml.core.propertypanels.ui.RowSelector.RowSelector(DefaultListModel, boolean, boolean);HIGH;CINT:43&LOC:207&MND:5&CC:35&NOAV:39
+org.argouml.core.propertypanels.ui.SimpleListModel.propertyChangeNEW(PropertyChangeEvent);VERYHIGH;CINT:19&LOC:74&MND:9&CC:17&NOAV:16
+org.argouml.core.propertypanels.ui.UMLModelElementListModel.propertyChangeNEW(PropertyChangeEvent);MEDIUM;CINT:11&LOC:102&MND:11&CC:18&NOAV:23

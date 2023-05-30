@@ -1,0 +1,3 @@
+org.argouml.application.Main.java.Main;MEDIUM;ATFD:14&NOAC:0&NOPA:0&TCC:0.1345&WMC:80
+org.argouml.model.euml.FacadeEUMLImpl;MEDIUM;ATFD:12&NOAC:0&NOPA:0&TCC:0.0005&WMC:684
+org.argouml.model.mdr.FacadeMDRImpl;MEDIUM;ATFD:11&NOAC:0&NOPA:0&TCC:0.0006&WMC:1099

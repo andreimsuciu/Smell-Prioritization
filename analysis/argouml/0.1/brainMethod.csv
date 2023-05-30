@@ -1,0 +1,6 @@
+"org.argouml.cognitive.Designer.run()","HIGH"
+"org.argouml.core.propertypanels.ui.UMLModelElementListModel.propertyChange(PropertyChangeEvent)","MEDIUM"
+"org.argouml.notation.providers.uml.AttributeNotationUml.parseAttribute(String, Object)","HIGH"
+"org.argouml.profile.internal.ocl.uml14.CollectionsModelInterpreter.invokeFeature(Map<String, Object>, Object, String, String, Object[])","HIGH"
+"org.argouml.ui.explorer.DnDExplorerTree.ArgoDropTargetListener.drop(DropTargetDropEvent)","MEDIUM"
+"org.argouml.uml.generator.ui.ClassGenerationDialog.actionPerformed(ActionEvent)","MEDIUM"
