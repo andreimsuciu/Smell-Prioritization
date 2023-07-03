@@ -1,6 +1,6 @@
 package frontend.controllers;
 
-import backend.model.smells.SmellPriority;
+import frontend.model.SmellPriority;
 import frontend.Util;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;

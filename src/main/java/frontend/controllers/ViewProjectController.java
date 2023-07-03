@@ -2,8 +2,8 @@ package frontend.controllers;
 
 import backend.io.read.csv.AnalysisReader;
 import backend.model.smells.SmellIntensity;
-import backend.model.smells.SmellPriority;
-import frontend.MultipleProjectsTask;
+import frontend.model.SmellPriority;
+import frontend.tasks.MultipleProjectsTask;
 import javafx.collections.ObservableList;
 import javafx.concurrent.Task;
 import javafx.event.ActionEvent;

@@ -37,7 +37,7 @@ public class Analyser {
         calculateSmell(Smell.DISPERSEDCOUPLING, classWithMetricsList);
     }
 
-    private void calculateSmell(Smell smell, ArrayList<ClassWithMetrics> classWithMetricsList) throws IOException, SAXException, ParserConfigurationException {
+    private void calculateSmell(Smell smell, ArrayList<ClassWithMetrics> classWithMetricsList) throws IOException{
         ArrayList<SmellIntensity> smellIntensities;
         if (smell.equals(Smell.GODCLASS) || smell.equals(Smell.DATACLASS)) {
             smellIntensities = getClassSmellIntensities(smell, classWithMetricsList);

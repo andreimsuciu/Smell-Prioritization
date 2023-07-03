@@ -1,6 +1,6 @@
 package frontend.controllers;
 
-import frontend.AnalyzeTask;
+import frontend.tasks.AnalyzeTask;
 import javafx.concurrent.Task;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;

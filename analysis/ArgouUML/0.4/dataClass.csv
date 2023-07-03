@@ -1,0 +1,3 @@
+org.argouml.cognitive.checklist.CheckItem;HIGH;ATFD:1&NOAC:8&NOPA:0&TCC:0.1333&WMC:16
+org.argouml.ui.JasonsTheme;VERYHIGH;ATFD:1&NOAC:12&NOPA:0&TCC:0.0128&WMC:13
+org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode;HIGH;ATFD:1&NOAC:12&NOPA:0&TCC:0.0661&WMC:43

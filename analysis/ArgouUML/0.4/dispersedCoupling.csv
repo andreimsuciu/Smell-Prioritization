@@ -1,0 +1,51 @@
+org.argouml.cognitive.Designer.run();VERYHIGH;CINT:24&LOC:105&MND:8&CC:19&NOAV:34
+org.argouml.core.propertypanels.ui.RowSelector.RowSelector(DefaultListModel, boolean, boolean);MEDIUM;CINT:43&LOC:207&MND:5&CC:35&NOAV:39
+org.argouml.core.propertypanels.ui.UMLModelElementListModel.propertyChange(PropertyChangeEvent);MEDIUM;CINT:11&LOC:102&MND:11&CC:18&NOAV:23
+org.argouml.model.euml.ModelEventPumpEUMLImpl.getDebugInfo();LOW;CINT:16&LOC:37&MND:5&CC:8&NOAV:12
+org.argouml.model.euml.ModelEventPumpEUMLImpl.unregisterListener(Object, EventListener, String[], Map<Object, List<Listener>>);VERYLOW;CINT:11&LOC:33&MND:5&CC:9&NOAV:8
+org.argouml.model.euml.XmiReaderEUMLImpl.isUML14(Resource);MEDIUM;CINT:11&LOC:49&MND:9&CC:13&NOAV:13
+org.argouml.model.mdr.UmlFactoryMDRImpl.delete(Object);MEDIUM;CINT:51&LOC:239&MND:6&CC:59&NOAV:15
+org.argouml.moduleloader.ModuleLoader2.java.ModuleLoader2.doInternal(boolean);VERYLOW;CINT:10&LOC:79&MND:5&CC:20&NOAV:12
+org.argouml.notation.providers.java.NotationUtilityJava.generateVisibility(Object);MEDIUM;CINT:19&LOC:60&MND:5&CC:18&NOAV:4
+org.argouml.notation.providers.uml.AbstractMessageNotationUml.handlePredecessors(Object, List<List>, boolean);VERYLOW;CINT:10&LOC:51&MND:5&CC:9&NOAV:12
+org.argouml.notation.providers.uml.AbstractMessageNotationUml.parseMessage(Object, String);MEDIUM;CINT:19&LOC:288&MND:5&CC:83&NOAV:45
+org.argouml.notation.providers.uml.AssociationEndNameNotationUml.parseAssociationEnd(Object, String);MEDIUM;CINT:21&LOC:94&MND:5&CC:23&NOAV:11
+org.argouml.notation.providers.uml.AttributeNotationUml.parseAttribute(String, Object);MEDIUM;CINT:21&LOC:260&MND:6&CC:60&NOAV:34
+org.argouml.notation.providers.uml.AttributeNotationUml.parseAttributeFig(Object, Object, String);MEDIUM;CINT:21&LOC:78&MND:5&CC:13&NOAV:12
+org.argouml.profile.internal.ProfileManagerImpl.registerProfileInternal(Profile);VERYLOW;CINT:10&LOC:29&MND:5&CC:8&NOAV:8
+org.argouml.profile.UserDefinedProfile.loadModel();VERYLOW;CINT:12&LOC:50&MND:5&CC:10&NOAV:12
+org.argouml.profile.UserDefinedProfileHelper.getList(File);VERYLOW;CINT:10&LOC:44&MND:5&CC:11&NOAV:8
+org.argouml.sequence2.diagram.FigLifeLine.createStandardActivations(List<FigMessage>);LOW;CINT:17&LOC:97&MND:5&CC:16&NOAV:7
+org.argouml.sequence2.diagram.UMLSequenceDiagram.postLoad();MEDIUM;CINT:18&LOC:68&MND:6&CC:12&NOAV:21
+org.argouml.ui.cmd.ActionAdjustGrid.init();LOW;CINT:11&LOC:33&MND:6&CC:7&NOAV:10
+org.argouml.ui.cmd.ActionAdjustSnap.init();LOW;CINT:11&LOC:30&MND:6&CC:7&NOAV:10
+org.argouml.ui.cmd.RelationshipActionFactory.getAssociationFromActions(Object, ArgoDiagram);LOW;CINT:11&LOC:28&MND:7&CC:8&NOAV:9
+org.argouml.ui.cmd.RelationshipActionFactory.getAssociationToActions(Object, ArgoDiagram);LOW;CINT:11&LOC:28&MND:7&CC:8&NOAV:9
+org.argouml.ui.cmd.RelationshipActionFactory.getAssociations(Object, ArgoDiagram);LOW;CINT:11&LOC:31&MND:7&CC:8&NOAV:10
+org.argouml.ui.explorer.DnDExplorerTree.isValidDrag(TreePath, Transferable);MEDIUM;CINT:20&LOC:93&MND:5&CC:19&NOAV:12
+org.argouml.ui.explorer.DnDExplorerTree.ArgoDropTargetListener.drop(DropTargetDropEvent);MEDIUM;CINT:42&LOC:142&MND:6&CC:27&NOAV:25
+org.argouml.ui.explorer.ExplorerTreeModel.reorderChildren(ExplorerTreeNode);LOW;CINT:16&LOC:81&MND:5&CC:11&NOAV:14
+org.argouml.ui.DetailsPane.setTarget(Object, boolean);LOW;CINT:13&LOC:87&MND:5&CC:20&NOAV:15
+org.argouml.ui.ProjectSettingsTabProfile.actionPerformed(ActionEvent);MEDIUM;CINT:21&LOC:92&MND:5&CC:18&NOAV:31
+org.argouml.uml.cognitive.critics.CrAssocNameConflict.computeOffenders(Object);VERYLOW;CINT:12&LOC:33&MND:5&CC:10&NOAV:8
+org.argouml.uml.cognitive.critics.CrWrongDepEnds.computeOffenders(UMLDeploymentDiagram);LOW;CINT:14&LOC:71&MND:5&CC:19&NOAV:13
+org.argouml.uml.cognitive.critics.CrWrongLinkEnds.computeOffenders(UMLDeploymentDiagram);LOW;CINT:15&LOC:55&MND:5&CC:14&NOAV:12
+org.argouml.uml.diagram.deployment.ui.FigComponentInstance.setEnclosingFig(Fig);MEDIUM;CINT:19&LOC:56&MND:5&CC:16&NOAV:7
+org.argouml.uml.diagram.state.ui.FigCompositeState.updateLayout(UmlChangeEvent);LOW;CINT:15&LOC:36&MND:5&CC:10&NOAV:7
+org.argouml.uml.diagram.state.ui.FigStubState.modelChanged(PropertyChangeEvent);MEDIUM;CINT:19&LOC:91&MND:5&CC:20&NOAV:13
+org.argouml.uml.diagram.static_structure.ui.FigClassifierBox.updateListeners(Object, Object);VERYLOW;CINT:11&LOC:43&MND:5&CC:8&NOAV:7
+org.argouml.uml.diagram.static_structure.ui.FigPackage.java.FigPackage.FigPackageFigText.mouseClicked(MouseEvent);LOW;CINT:14&LOC:65&MND:5&CC:12&NOAV:12
+org.argouml.uml.diagram.static_structure.ClassDiagramGraphModel.getOutEdges(Object);LOW;CINT:14&LOC:42&MND:5&CC:11&NOAV:9
+org.argouml.uml.diagram.ui.DiagramNameDocument.update(DocumentEvent);LOW;CINT:14&LOC:40&MND:5&CC:8&NOAV:14
+org.argouml.uml.diagram.ui.DnDJGraph.drop(DropTargetDropEvent);MEDIUM;CINT:35&LOC:61&MND:5&CC:12&NOAV:24
+org.argouml.uml.diagram.ui.FigEdgeModelElement.computeRouteImpl();LOW;CINT:17&LOC:70&MND:5&CC:15&NOAV:15
+org.argouml.uml.diagram.ui.FigMessage.updateListeners(Object);LOW;CINT:15&LOC:54&MND:5&CC:10&NOAV:8
+org.argouml.uml.diagram.ui.FigNodeModelElement.moveIntoComponent(Fig);MEDIUM;CINT:21&LOC:56&MND:5&CC:10&NOAV:16
+org.argouml.uml.diagram.ui.ModeAddToDiagram.java.ModeAddToDiagram.mouseReleased(MouseEvent);MEDIUM;CINT:41&LOC:85&MND:5&CC:15&NOAV:29
+org.argouml.uml.diagram.ui.TabDiagram.java.TabDiagram.select(Object[]);HIGH;CINT:20&LOC:54&MND:7&CC:17&NOAV:12
+org.argouml.uml.generator.ui.ClassGenerationDialog.actionPerformed(ActionEvent);HIGH;CINT:26&LOC:89&MND:7&CC:17&NOAV:25
+org.argouml.uml.generator.AbstractSection.write(String, String, boolean);LOW;CINT:16&LOC:73&MND:6&CC:12&NOAV:18
+org.argouml.uml.generator.TempFileUtils.readAllFiles(File);LOW;CINT:14&LOC:46&MND:7&CC:6&NOAV:10
+org.argouml.uml.ui.ActionDeleteModelElements.actionPerformed(ActionEvent);LOW;CINT:16&LOC:44&MND:5&CC:10&NOAV:13
+org.argouml.uml.ui.SourcePathTableModel.SourcePathTableModel(SourcePathController);LOW;CINT:17&LOC:52&MND:5&CC:9&NOAV:14
+org.argouml.uml.ui.TabConstraints.ConstraintModel.CR.setData(String, EditingUtilities);MEDIUM;CINT:30&LOC:137&MND:5&CC:13&NOAV:22

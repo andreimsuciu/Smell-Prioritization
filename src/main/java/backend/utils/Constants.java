@@ -8,7 +8,7 @@ import java.util.HashMap;
 
 public class Constants {
     //number of parts in which a metric range is split
-    public static final double parts = 3.0;
+    public static final double parts = 4.0;
     //
     public static final ArrayList<PriorityInterval> priorityIntervals = new ArrayList<>() {
         {

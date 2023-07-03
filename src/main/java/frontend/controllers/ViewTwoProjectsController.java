@@ -2,7 +2,7 @@ package frontend.controllers;
 
 import backend.model.smells.Smell;
 import backend.model.smells.SmellIntensity;
-import backend.model.smells.SmellVersionComparison;
+import frontend.model.SmellVersionComparison;
 import frontend.Util;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;

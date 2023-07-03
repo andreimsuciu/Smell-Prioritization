@@ -86,7 +86,8 @@ public class SmellChecker {
         FormulaForMetric formulaForMetric = formula.get(metricName);
 
         Double metricValue = Double.valueOf(metric.getValue());
-        Double thresholdValue = Double.valueOf(metricThresholds.get(metricName).get(formulaForMetric.getThreshold()));
+        Double thresholdValue = Double.valueOf(metricThresholds.get(metricName)
+                .get(formulaForMetric.getThreshold()));
         String comparator = formulaForMetric.getComparison();
 
         return Comparator.compare(metricValue, thresholdValue, comparator);

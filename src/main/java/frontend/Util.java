@@ -2,7 +2,7 @@ package frontend;
 
 import backend.model.metrics.Metric;
 import backend.model.smells.SmellIntensity;
-import backend.model.smells.SmellVersionComparison;
+import frontend.model.SmellVersionComparison;
 import javafx.collections.FXCollections;
 import javafx.scene.chart.XYChart;
 import javafx.scene.control.TableColumn;

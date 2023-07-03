@@ -98,7 +98,10 @@ public class IntensityCalculator {
             currentInterval = new ImmutablePair<>(currentInterval.right, currentInterval.left);
         }
         //get the target interval
-        ImmutablePair<Double, Double> priorityInterval = Constants.priorityIntervals.get(intervalForMetricIndex).getInterval();
+        ImmutablePair<Double, Double> priorityInterval =
+                Constants.priorityIntervals
+                .get(intervalForMetricIndex)
+                .getInterval();
         //return the scaled variable
         return Calculator.linearlyScaleVariableToNewInterval(
                 Double.valueOf(metric.getValue()),

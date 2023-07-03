@@ -31,7 +31,8 @@ public class ParserUtil {
                 //Build Metric and add to metrics list
                 String metricName = metricElement.getAttribute("name");
                 if (configList.contains(metricName)) {
-                    Metric metric = new Metric(metricElement.getAttribute("name"), metricElement.getAttribute("value"));
+                    Metric metric = new Metric(metricElement.getAttribute("name"),
+                            metricElement.getAttribute("value"));
                     metrics.add(metric);
                 }
             }
