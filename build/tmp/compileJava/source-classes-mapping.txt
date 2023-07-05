@@ -1,0 +1,80 @@
+backend/analysis/Analyser.java
+ backend.analysis.Analyser
+backend/model/smells/SmellChecker.java
+ backend.model.smells.SmellChecker
+ backend.model.smells.SmellChecker$1
+backend/model/smells/SmellIntensity.java
+ backend.model.smells.SmellIntensity
+frontend/model/SmellPriority.java
+ frontend.model.SmellPriority
+backend/io/write/Writer.java
+ backend.io.write.Writer
+ backend.io.write.Writer$1
+backend/model/interval/PriorityInterval.java
+ backend.model.interval.PriorityInterval
+backend/utils/Calculator.java
+ backend.utils.Calculator
+frontend/controllers/AnalyzeController.java
+ frontend.controllers.AnalyzeController
+frontend/controllers/ViewTwoProjectsController.java
+ frontend.controllers.ViewTwoProjectsController
+backend/io/read/xml/ClassParser.java
+ backend.io.read.xml.ClassParser
+backend/io/read/xml/Parser.java
+ backend.io.read.xml.Parser
+frontend/tasks/AnalyzeTask.java
+ frontend.tasks.AnalyzeTask
+backend/model/smells/FormulaForMetric.java
+ backend.model.smells.FormulaForMetric
+backend/model/smells/MetricThreshold.java
+ backend.model.smells.MetricThreshold
+frontend/controllers/ViewSingleProjectController.java
+ frontend.controllers.ViewSingleProjectController
+backend/model/interval/MetricIntervals.java
+ backend.model.interval.MetricIntervals
+backend/io/read/csv/AnalysisReader.java
+ backend.io.read.csv.AnalysisReader
+backend/model/metrics/EntityWithMetrics.java
+ backend.model.metrics.EntityWithMetrics
+frontend/controllers/ViewProjectController.java
+ frontend.controllers.ViewProjectController
+frontend/model/SmellVersionComparison.java
+ frontend.model.SmellVersionComparison
+backend/utils/Comparator.java
+ backend.utils.Comparator
+backend/io/read/xml/ParserUtil.java
+ backend.io.read.xml.ParserUtil
+backend/utils/Constants.java
+ backend.utils.Constants
+ backend.utils.Constants$1
+ backend.utils.Constants$2
+frontend/Util.java
+ frontend.Util
+ frontend.Util$1
+ frontend.Util$2
+ frontend.Util$3
+backend/model/metrics/Metric.java
+ backend.model.metrics.Metric
+ backend.model.metrics.Metric$Type
+backend/model/metrics/ClassWithMetrics.java
+ backend.model.metrics.ClassWithMetrics
+backend/analysis/IntensityCalculator.java
+ backend.analysis.IntensityCalculator
+frontend/controllers/ViewMultipleVersionsController.java
+ frontend.controllers.ViewMultipleVersionsController
+ frontend.controllers.ViewMultipleVersionsController$1
+frontend/Main.java
+ frontend.Main
+backend/utils/Config.java
+ backend.utils.Config
+ backend.utils.Config$1
+backend/model/smells/Smell.java
+ backend.model.smells.Smell
+backend/model/metrics/MethodWithMetrics.java
+ backend.model.metrics.MethodWithMetrics
+frontend/tasks/MultipleProjectsTask.java
+ frontend.tasks.MultipleProjectsTask
+backend/io/read/xml/MethodParser.java
+ backend.io.read.xml.MethodParser
+frontend/controllers/Controller.java
+ frontend.controllers.Controller
